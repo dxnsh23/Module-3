@@ -1,22 +1,32 @@
-# Module-3
-# 🧹 Strings-Remove Nth Index Character from a String
+# 🧹  To accept the string and join the string using the "-" symbol.
 
 ## 🎯 Aim
-To write a Python program that accepts a string and removes the character at a specified index.
+To write a Python function that accepts a string from the user and joins its characters using the "-" symbol.
 
 ## 🧠 Algorithm
-1. Define a function named `remove` that takes the input string as an argument.
-2. Read the index `n` from the user input.
-3. Initialize an empty string `a` to store the new string.
-4. Iterate over each index of the string using a `for` loop.
-5. Check if the current index `i` is not equal to `n`.
-6. If `i != n`, append the character at index `i` to string `a`.
-7. After the loop, return the modified string `a`.
-8. Print the final result.
+1.Start the program.
+
+2.Define a function joinstring(str1).
+
+3.Inside the function, use the join() function with the "-" symbol to join the characters of the string.
+
+4.Return or print the joined string.
+
+5.Accept a string input from the user.
+
+6.Call the function and display the result.
+
+7.Stop the program.
 
 ## 💻 Program
-Add Code Here
+```
+def joinstring(text):
+    print( "-".join(text))
+```
 
 ## Output
+<img width="1004" height="268" alt="image" src="https://github.com/user-attachments/assets/9e27ce97-361e-4f06-a5f6-036e22403b94" />
+
 
 ## Result
+The program successfully joins the characters of the given string with the “-” symbol.
